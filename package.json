@@ -10,10 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^1.10.0",
-=======
->>>>>>> 51b406e6ba39a5595d7bc02e480e2147372d7205
     "framer-motion": "^10.18.0",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
