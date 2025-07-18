@@ -154,9 +154,8 @@ function App() {
 
       {/* Main Content */}
       <div
-        className={`flex-1 transition-all duration-300 ${
-          sidebarOpen ? "md:ml-72" : "md:ml-20"
-        }`}
+        className={`flex-1 transition-all duration-300 ${sidebarOpen ? "md:ml-72" : "md:ml-20"
+          }`}
       >
         {/* Navbar */}
         <motion.nav
@@ -223,11 +222,10 @@ function NavItem({ icon, label, isActive, onClick }) {
     <li>
       <button
         onClick={onClick}
-        className={`flex items-center px-3 py-2 rounded-md transition-all duration-300 ${
-          isActive
+        className={`flex items-center px-3 py-2 rounded-md transition-all duration-300 ${isActive
             ? "bg-purple-600 text-white shadow-lg"
             : "text-gray-300 hover:bg-gray-700/50 hover:text-white"
-        }`}
+          }`}
       >
         <span className="mr-2">{icon}</span>
         <span className="hidden md:block">{label}</span>
@@ -267,7 +265,7 @@ function AboutSection() {
             <img
               src={myPhoto}
               alt="Muhammad Noman"
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-purple-500 shadow-lg mx-auto"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-full object-contain border-4 border-purple-500 shadow-lg mx-auto bg-black"
             />
           </div>
           {/* About Text */}
@@ -276,22 +274,15 @@ function AboutSection() {
               Hello, I am Muhammad Noman
             </h2>
             <p className="text-gray-300 mb-4">
-              I am an 8th-semester BSIT student with a strong passion for web
-              development. I have successfully completed a frontend development
-              internship, where I gained hands-on experience building responsive and
-              user-friendly web applications.
+              I am a final-year BSIT student with a strong passion for web development. I have built multiple responsive and user-friendly web applications using modern technologies like React.js, Tailwind CSS, and JavaScript. I am a quick learner, dedicated to writing clean code, and eager to grow as a frontend developer by contributing to impactful digital solutions.
             </p>
             <p className="text-gray-300 mb-4">
-              My core expertise lies in frontend technologies, particularly
-              React.js, JavaScript, and modern CSS frameworks like Tailwind CSS. I
-              am also actively learning backend development to become a full-stack
-              developer.
+              My core expertise lies in frontend technologies, particularly React.js, JavaScript, and modern CSS frameworks like Tailwind CSS. I am also expanding my skills in backend development to become a proficient full-stack developer.
             </p>
             <p className="text-gray-300">
-              I am eager to work on challenging projects, enhance my skills, and
-              contribute to meaningful solutions. When I’m not coding, I enjoy
-              exploring new technologies and playing cricket.
+              I am highly motivated to work on challenging projects, continuously improve my skills, and contribute to impactful digital solutions. Outside of coding, I enjoy exploring emerging technologies and playing cricket to stay refreshed and creative.
             </p>
+
             {/* CV Buttons - always together, side-by-side on desktop, stacked on mobile */}
             <div className="flex flex-col sm:flex-row gap-3 mt-6">
               <a
@@ -526,7 +517,7 @@ function PortfolioSection() {
     },
 
     {
-      title: "Restaurant Website",
+      title: "Static Organic Store Website",
       category: "Business Website",
       image:
         "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=250&fit=crop",
