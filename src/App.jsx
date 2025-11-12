@@ -85,14 +85,14 @@ function App() {
             {/* CV Buttons - stacked vertically, full width, below social */}
             <div className="flex flex-col gap-2 w-full mt-2">
               <a
-                href="/M.Noman cv.pdf"
+                href="/Muhammad noman cv.pdf"
                 download
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold px-4 py-2 rounded-lg shadow transition-colors text-center text-sm tracking-wide"
               >
                 Download CV
               </a>
               <a
-                href="/M.Noman cv.pdf"
+                href="/Muhammad noman cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-white hover:bg-gray-100 text-purple-700 font-bold px-4 py-2 rounded-lg shadow transition-colors text-center text-sm border border-purple-600 tracking-wide"
